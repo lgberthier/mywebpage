@@ -1,61 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>My Full Name!!!!!!!!!!!!</title>
-</head>
+  </head>
 
-<body>
-    <h1 style="color: green; text-align: center;">
-        My Full Name!!!!!!!!!!!!
-    </h1>
+  <style>
+    img {
+      width: 150px;
+      border-radius: 50px;
+      float: left;
+      margin-top: 15px;
+    }
+    .block_a {
+    }
 
-</body>
-<style> 
-img {
-    width: 100px;
-    border-radius: 50px;
-    margin-left: 50px;
-    margin-right: 10px; 
-    float: left;
+    .link_a {
+      position: relative;
+      width: 100%;
+      height: 50px;
+    }
+    .link_a_box {
+      position: absolute;
+      top: 20%;
+      left: 5%;
+      transform: translate(-50%, -50%);
+    }
 
-}
-p {
-text-align: right;
+    .link_b {
+      position: relative;
+      width: 100%;
+      height: 50px;
+    }
+    .link_b_box {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      transform: translate(-50%, -50%);
+    }
 
-}
+    .link_c {
+      position: relative;
+      width: 100%;
+      height: 50px;
+    }
+    .link_c_box {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      transform: translate(-50%, -50%);
+    }
 
-</style>
+    .link_d {
+      position: relative;
+      width: 100%;
+      height: 50px;
+    }
+    .link_d_box {
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
 
-<body>
+  <body>
+    <div class="container-fluid">
+      <div class="header row">
+        <div class="col" style="text-align: center">
+          <h1 style="color: green; text-align: center !important">
+            My Full Name!!!!!!!!!!!!
+          </h1>
+        </div>
+      </div>
 
-    <img src="oceanimage.jpg" alt="Photo">
-    
+      <div class="block_a">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-3">
+            <img src="oceanimage.jpg" alt="Photo" />
+            <did class="col-9">
+            <p style="text-align: right;">mye_mail@gmail.com</p>
+            <p>my direction</p>
+          </div>
+          </did>
+          </div>
+        </div>
+      </div>
 
+      <div class="link_a">
+        <div class="link_a_box">
+          <a href="link_a.html">Some link!</a>
+        </div>
+      </div>
 
-    <p> Something about myself. </p>
+      <div class="link_b">
+        <div class="link_b_box">
+          <a href="link_b.html">Some other link!</a>
+        </div>
+      </div>
 
-</body>
+      <div class="link_c">
+        <div class="link_c_box">
+          <a href="link_c.html">Yet another link!</a>
+        </div>
+      </div>
 
-<div>
-   
- 
-        <a href="https://google.com">Some link!</a>
-  
-</div>
+      <div class="link_d">
+        <div class="link_d_box">
+          <a href="link_d.html">One more link!</a>
+        </div>
+      </div>
 
-</div>
+      <div class="container-fluid">
+        <div class="row">
+          Skills:
+          <ul>
+            <li>One Item</li>
+            <li>Another Item</li>
+            <li>Yet Another Item</li>
+          </ul>
 
-    <body>
-        <a href="https://google.com">Some other link!</a>
-    </body>
-</div>
-
-<div>
-
-    <body>
-        <a href="https://google.com">Yet another link!</a>
-    </body>
-</div>
-
+          Languages:
+          <ul>
+            <li>One Item</li>
+            <li>Another Item</li>
+            <li>Yet Another Item</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
