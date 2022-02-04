@@ -1,139 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Full Name!!!!!!!!!!!!</title>
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
-  <style>
-    img {
-      width: 150px;
-      border-radius: 50px;
-      float: left;
-      margin-top: 15px;
-    }
-    .block_a {
-    }
-
-    .link_a {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_a_box {
-      position: absolute;
-      top: 20%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-
-    .link_b {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_b_box {
-      position: absolute;
-      top: 10%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-
-    .link_c {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_c_box {
-      position: absolute;
-      top: 10%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-
-    .link_d {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_d_box {
-      position: absolute;
-      top: 10%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-  </style>
-
   <body>
-    <div class="container-fluid">
-      <div class="header row">
-        <div class="col" style="text-align: center">
-          <h1 style="color: green; text-align: center !important">
-            My Full Name!!!!!!!!!!!!
-          </h1>
-        </div>
-      </div>
+    <!-- A h1 with my full name.-->
+    <h1>My Full Name!!!!!!!!!!!!</h1>
 
-      <div class="block_a">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-3">
-            <img src="oceanimage.jpg" alt="Photo" />
-            <did class="col-9">
-            <p style="text-align: right;">mye_mail@gmail.com</p>
-            <p>my direction</p>
-          </div>
-          </did>
-          </div>
-        </div>
-      </div>
+    <!-- The ionicon link, my icons' library of choice.-->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
-      <div class="link_a">
-        <div class="link_a_box">
-          <a href="link_a.html">Some link!</a>
-        </div>
-      </div>
+    <!-- Here a horizontal navigation bar.-->
+    <ul id="navigation_bar">
+      <li id="bar_items"><a href="resume.html">Resume</a></li>
+      <li id="bar_items"><a href="hobbies.html">Hobbies</a></li>
+      <li id="bar_items"><a href="about_me.html">About Me</a></li>
+    </ul>
 
-      <div class="link_b">
-        <div class="link_b_box">
-          <a href="link_b.html">Some other link!</a>
-        </div>
-      </div>
+    <!-- Here my photo.-->
+    <img src="oceanimage.jpg" alt="Photo" id="main_image" />
 
-      <div class="link_c">
-        <div class="link_c_box">
-          <a href="link_c.html">Yet another link!</a>
-        </div>
-      </div>
+    <!-- A paragraph with a small biography.-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vero
+      recusandae cumque exercitationem necessitatibus quos mollitia vel.
+      Asperiores, vitae. Voluptatibus, accusantium nobis illum iste odio harum
+      minus consequuntur id laboriosam?<br />
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vero
+      recusandae cumque exercitationem necessitatibus quos mollitia vel.
+      Asperiores, vitae. Voluptatibus, accusantium nobis illum iste odio harum
+      minus consequuntur id laboriosam?
+    </p>
 
-      <div class="link_d">
-        <div class="link_d_box">
-          <a href="link_d.html">One more link!</a>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row">
-          Skills:
-          <ul>
-            <li>One Item</li>
-            <li>Another Item</li>
-            <li>Yet Another Item</li>
-          </ul>
-
-          Languages:
-          <ul>
-            <li>One Item</li>
-            <li>Another Item</li>
-            <li>Yet Another Item</li>
-          </ul>
-        </div>
-      </div>
+    <!-- Here links to social media.-->
+    <div id="icons">
+      <a href="link_a.html" target="_blank"
+        ><ion-icon name="logo-github"></ion-icon
+      ></a>
+      <a href="link_a.html" target="_blank"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+      <a href="link_a.html" target="_blank"
+        ><ion-icon name="logo-facebook"></ion-icon
+      ></a>
+      <a href="link_a.html" target="_blank"
+        ><ion-icon name="logo-instagram"></ion-icon
+      ></a>
+      <a href="link_a.html" target="_blank"
+        ><ion-icon name="logo-twitter"></ion-icon
+      ></a>
+      <a href="link_a.html"><ion-icon name="mail-outline"></ion-icon></a>
     </div>
   </body>
 </html>
