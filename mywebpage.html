@@ -1,139 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    <meta charset="UTF-8" />
+    <title>Your Name</title>
+    <!-- If you want to add a logo to the title bar.-->
+    <link rel="icon" type="image/x-icon" href="image_here" />
+    <!-- Helps to make the page responsive.-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- Library used in this page.-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <!-- For the logo.-->
+    <script
+      src="https://kit.fontawesome.com/5718e4890d.js"
       crossorigin="anonymous"
-    />
-    <title>My Full Name!!!!!!!!!!!!</title>
+    ></script>
+    <!-- For the logo.-->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-- Css link.-->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
+  <body class="hero-image">
+    <!-- For small screens.-->
+    <div class="mobile">
+      <h1 class="mobile_h1">Your Name</h1>
+      <p class="mobile_p">Some text.</p>
+    </div>
 
-  <style>
-    img {
-      width: 150px;
-      border-radius: 50px;
-      float: left;
-      margin-top: 15px;
-    }
-    .block_a {
-    }
-
-    .link_a {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_a_box {
-      position: absolute;
-      top: 20%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-
-    .link_b {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_b_box {
-      position: absolute;
-      top: 10%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-
-    .link_c {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_c_box {
-      position: absolute;
-      top: 10%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-
-    .link_d {
-      position: relative;
-      width: 100%;
-      height: 50px;
-    }
-    .link_d_box {
-      position: absolute;
-      top: 10%;
-      left: 5%;
-      transform: translate(-50%, -50%);
-    }
-  </style>
-
-  <body>
-    <div class="container-fluid">
-      <div class="header row">
-        <div class="col" style="text-align: center">
-          <h1 style="color: green; text-align: center !important">
-            My Full Name!!!!!!!!!!!!
-          </h1>
-        </div>
+    <!-- Menu bar.-->
+    <div class="dropdown">
+      <button class="dropbtn">
+        <!-- Menu icon.-->
+        <i class="fa-solid fas fa-bars fa-2x"></i>
+      </button>
+      <div class="dropdown-content">
+        <!-- Links.-->
+        <a href="resume.html">Resume</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="about_me.html">About Me</a>
       </div>
+    </div>
 
-      <div class="block_a">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-3">
-            <img src="oceanimage.jpg" alt="Photo" />
-            <did class="col-9">
-            <p style="text-align: right;">mye_mail@gmail.com</p>
-            <p>my direction</p>
-          </div>
-          </did>
-          </div>
-        </div>
-      </div>
+    <!-- A div to center everything.-->
+    <div class="hero-text">
+      <!-- A h1 with my full name.-->
+      <h1>Your Name</h1>
 
-      <div class="link_a">
-        <div class="link_a_box">
-          <a href="link_a.html">Some link!</a>
-        </div>
-      </div>
+      <!-- A paragraph.-->
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, nihil!
+        Velit harum non tenetur in ad, recusandae vel mollitia nihil repellendus
+        sequi, nobis dolor asperiores obcaecati odio voluptatem eveniet
+        consequuntur?
+      </p>
+    </div>
 
-      <div class="link_b">
-        <div class="link_b_box">
-          <a href="link_b.html">Some other link!</a>
-        </div>
-      </div>
-
-      <div class="link_c">
-        <div class="link_c_box">
-          <a href="link_c.html">Yet another link!</a>
-        </div>
-      </div>
-
-      <div class="link_d">
-        <div class="link_d_box">
-          <a href="link_d.html">One more link!</a>
-        </div>
-      </div>
-
-      <div class="container-fluid">
-        <div class="row">
-          Skills:
-          <ul>
-            <li>One Item</li>
-            <li>Another Item</li>
-            <li>Yet Another Item</li>
-          </ul>
-
-          Languages:
-          <ul>
-            <li>One Item</li>
-            <li>Another Item</li>
-            <li>Yet Another Item</li>
-          </ul>
-        </div>
-      </div>
+    <!-- Links to social media.-->
+    <div id="icons">
+      <a href="###" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+      <a href="###" target="_blank"
+        ><ion-icon name="logo-linkedin"></ion-icon
+      ></a>
+      <a href="###" target="_blank"
+        ><ion-icon name="logo-facebook"></ion-icon
+      ></a>
+      <a href="###" target="_blank"
+        ><ion-icon name="logo-instagram"></ion-icon
+      ></a>
+      <a href="###" target="_blank"
+        ><ion-icon name="logo-twitter"></ion-icon
+      ></a>
+      <a href="contact.html"><ion-icon name="mail"></ion-icon></a>
     </div>
   </body>
 </html>
