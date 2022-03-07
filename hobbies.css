@@ -1,0 +1,76 @@
+body {
+  background-color: #ced7d8;
+}
+
+ion-icon {
+  font-size: 40px;
+  color: #316879;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ec7054;
+  font-family: "Georgia", Times, serif;
+}
+
+img {
+  width: 125px;
+  height: 150px;
+  border-radius: 15px;
+  margin-left: 37.5px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container > div {
+  background-color: #316879;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 400px;
+  border-radius: 15px;
+  margin-bottom: 150px;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+.main_paragraph {
+  text-align: center;
+  color: #ec7054;
+  font-size: 22px;
+  font-family: "Georgia", Times, serif;
+}
+
+p {
+  color: #ec7054;
+  font-size: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+#icons {
+  text-decoration: none;
+  margin-left: 75px;
+  font-size: 30px;
+  margin: 0 5px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-align: center;
+}
+
+#icons :hover {
+  color: #6b6b6b;
+}
+/*# sourceMappingURL=hobbies.css.map */
