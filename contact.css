@@ -1,0 +1,56 @@
+/* Easily change the colors for your preference  */
+body {
+  background-color: #ccc;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #6b6b6b;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #7c9cb1;
+  color: #f2f2f2;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change the submit button color on hover */
+input[type=submit]:hover {
+  background-color: #6b6b6b;
+}
+
+/* Add a background color, padding and center the form */
+.container {
+  width: 500px;
+  position: absolute;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  top: 35%;
+  /* To center */
+  left: 50%;
+  /* To center */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  /* To center */
+}
+/*# sourceMappingURL=contact.css.map */
